@@ -1,0 +1,131 @@
+.lm_banner{
+	width: 100%;
+	height: 562px;
+	overflow: hidden;
+}
+.lm_banner img{
+	width: 100%;
+	height: 100%;
+}
+section{
+	height: auto;
+	background: #fff;
+}
+.news_bt,.news_zw{
+	width: 1100px;
+	margin: 0 auto;
+}
+.news_bt .tit_h1{
+	text-align: center;
+	font-size: 28px;
+	color: #262626;
+	font-family: "微软雅黑";
+	margin-bottom: 26px;
+}
+.news_bt .news_fbsj{
+	font-size: 14px;
+	color: #a6a6a6;
+	text-align: center;
+	font-family: "微软雅黑";
+	margin-bottom: 25px;
+}
+.news_zw{
+	margin-top: 33px;
+	color: #7e7e7e;
+	text-align: center;
+	margin-bottom: 105px;
+}
+.news_zw p{
+	text-align: left;
+}
+/*新闻列表页样式*/
+.list_bt{
+	width: 1052px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 65px;
+}
+.list_fl{
+	float: right;
+	margin-right: 9px;
+	    height: 38px;
+    line-height: 38px;
+}
+.list_fl a{
+	font-size: 18px;
+	color: #313131;
+	font-family: "微软雅黑";
+	padding: 6px 14px 5px 15px;
+	border-radius: 13px;
+	margin-left: 3px;
+}
+.list_fl a:hover{
+	border: 1px solid #898989;
+	text-decoration: none;
+}
+.news_list{
+	width: 1052px;
+	margin: 0 auto;
+	padding: 12px 66px 0 44px;
+}
+.news_list .news_fl{
+	width: 299px;
+	height: 125px;
+}
+.news_list .news_fl img{
+	width: 100%;
+	height: 100%;
+}
+.news_list .news_hero{
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+.news_list .hero_fr{
+	width: 618px;
+}
+.news_list .hero_fr .hero_P{
+	font-size: 18px;
+	color: #3d3d3d;
+	font-family: "微软雅黑";
+	font-weight: 500;
+	margin-bottom: 27px;
+	margin-top: 3px;
+}
+.news_list .hero_fr .hero_nr{
+	font-size: 14px;
+	color: #656565;
+	font-family: "微软雅黑";
+	line-height: 23px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	margin-bottom: 0;
+	text-align: justify;
+}
+.news_list .hero_fr .hero_sj{
+	font-size: 14px;
+	color: #656565;
+	float: right;
+	margin-top: 6px;
+}
+.news_page{
+	text-align: center;
+	margin-bottom: 27px;
+}
+.pagination>li>a{
+	color: #3a3a3a;
+	font-size: 14px;
+	margin-left: 7px;
+	border-color: #d9d9d9;
+}
+.pagination>li>a:hover{
+	color: #fff;
+	background: #e70d1d;
+	border-color: transparent;
+}
+.pagination > .active > a{
+	color: #fff;
+	background: #e70d1d;
+	border-color: transparent;
+}

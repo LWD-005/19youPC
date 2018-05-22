@@ -1,0 +1,215 @@
+
+.game_bg{
+	position: relative;
+	width: 100%;
+	height: 2140px;
+	/*z-index: -1;*/
+	background: url(../img/game/game_bg.jpg);
+	background-position: center 0;
+}
+/*body{
+	background: url(../img/game_bg.jpg);
+	background-position: center 0;
+}*/
+.game_bg .img_bg{
+	width: 100%;
+	height: 100%;
+}
+.section{
+	width: 1102px;
+	margin: 0 auto;
+	height: auto;
+	position: relative;
+	top: 604px;
+	z-index: 2;
+}
+.section .game_xz{
+	margin-left: 134px;
+	overflow: hidden;
+}
+.section .game_xzL{
+	width: 180px;
+	text-align: center;
+	float: left;
+}
+.section .game_xzL p{
+	margin-top: 6px;
+	font-size: 15px;
+	color: #1eabfc;
+	font-family: "微软雅黑";
+}
+.section .game_xzL p img{
+	margin-right: 7px;
+}
+.section .game_xzR{
+	width: 258px;
+	float: left;
+	margin-left: 21px;
+}
+.section .game_xzR img{
+	margin-bottom: 9px;
+}
+.game_gg{
+	margin-top: 125px;
+	margin-left: 48px;
+	overflow: hidden;
+}
+.game_gg .game_ggL{
+	width: 390px;
+	height: 356px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.game_ggL .carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom:6px;
+	width: 288px;
+}
+.game_ggL .carousel-inner .item{
+	width: 390px;
+	height: 356px;
+}
+.game_ggL .carousel-inner .item img{
+	width: 100%;
+	height: 100%;
+}
+.game_ggL .carousel-indicators li{
+	width: 12px;
+	height: 12px;
+}
+.game_ggL .carousel-indicators .active {
+    width: 22px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 1px;
+}
+.game_gg .game_ggR{
+	height: 356px;
+	width: 610px;
+	background: url(../img/game/game_di.png) no-repeat;
+	/*opacity: .5;*/
+	float: left;
+	padding: 31px 45px 0 40px;
+}
+.game_ggR .game_Rtit a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #b7dbf7;
+	margin-right: 35px;
+	cursor: pointer;
+}
+.game_ggR .game_Rtit a:hover{
+	color: #e9be0a;
+	text-decoration: none;
+}
+.game_ggR .active{
+	color: #e9be0a !important;
+}
+.game_ggR .game_Rtit .game_more{
+	float: right;
+	display: block;
+	width: 21px;
+	height: 21px;
+	margin-right: 0;
+	background: url(../img/game/game_more.png) no-repeat;
+}
+.game_Rlist{
+	margin-top: 46px;
+}
+.xw_list ul,.gongg_list ul,.gl_list ul,.hd_list ul{
+	display: none;
+}
+.game_Rlist ul li .game_bt{
+	margin-right: 9px;
+	float: left;
+}
+.game_Rlist ul li .game_wz{
+	display: inline-block;
+	width: 400px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	float: left;
+}
+.game_Rlist ul li .game_sj{
+	float: right;
+}
+.game_Rlist ul li a{
+	font-size: 14px;
+	color: #b7dbf7;
+	font-family: "微软雅黑";
+	overflow: hidden;
+	line-height: 33px;
+}
+.game_Rlist ul li a:hover{
+	color: #f6b806;
+	text-decoration: none;
+}
+.game_ts{
+	margin-top: 75px;
+}
+.game_ts .gamets_tit{
+	text-align: center;
+}
+/*3d轮播样式*/
+#focus_Box {
+	position: relative;
+	width: 1102px;
+	height: 561px;
+	margin-top: 60px;
+}
+
+#focus_Box ul {
+	position: relative;
+	width: 1102px;
+	height: 561px;
+}
+
+#focus_Box li {
+	width: 315px;
+	height: 561px;
+	z-index: 0;
+	position: absolute;
+	top: 146px;
+	cursor: pointer;
+	left: 377px;
+	background: url(../img/game/game_tc.png);
+	transform: perspective(1000px) rotateY(15deg);
+	
+}
+#focus_Box li:nth-child(3){
+	transform: perspective(1000px) rotateY(0deg);
+}
+#focus_Box li:nth-child(4){
+	transform: perspective(1000px) rotateY(-15deg);
+}
+#focus_Box li:nth-child(5){
+	transform: perspective(1000px) rotateY(-15deg);
+}
+#focus_Box li img{
+	width: 100%;
+	height: 100%;
+	background: #000;
+}
+#focus_Box .prev,#focus_Box .next {
+	display: block;
+	z-index: 100;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	top: 40%;
+}
+
+#focus_Box .prev {
+	background: url(../img/game/game_left.png) left bottom no-repeat;
+	left: -27px
+}
+
+#focus_Box .next {
+	background: url(../img/game/game_right.png) right bottom no-repeat;
+	right: 0px
+}

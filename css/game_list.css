@@ -1,0 +1,182 @@
+/*游戏列表页样式*/
+.carousel{
+	background: #e6e6e6;
+	padding-bottom: 17px;
+	padding-top: 18px;
+}
+.game_banner{
+	width: 1012px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*position: relative;*/
+	-webkit-box-shadow:1px 0 10px #C0C0C0;  
+	-moz-box-shadow:1px 0 10px #C0C0C0;  
+	box-shadow:1px 0 10px #C0C0C0;  
+}
+section{
+	height: auto;
+}
+.game_banner .banner_fl{
+	padding-top: 5px;
+	background: #fff;
+	position: relative;
+}
+.game_banner .banner_s{
+	width: 243px;
+	background: #fff;
+	padding: 11px 0 10px 32px;
+	border-bottom: 1px solid #d9d9d9;
+	cursor: pointer;
+	position: relative;
+}
+.game_arrow{
+	z-index: 9;
+	position: absolute;
+    bottom:38%;
+    left: 100%;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: solid 8px transparent;
+    border-right: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+    border-left: solid 8px #efefef;
+    display: none;
+}
+.game_banner .banner_s:hover{
+	background: #efefef;
+}
+.game_banner .banner_s:hover .game_arrow{
+	display: block;
+}
+.game_banner .banner_s:last-child{
+	border: none;
+}
+.game_banner .banner_s .banner_tit{
+	margin-left: 14px;
+	padding-top: 11px;
+}    
+.banner_s .banner_tit .banner_bt{
+	margin-bottom: -4px;
+	font-size: 18px;
+	color: #272a2c;
+	font-family: "微软雅黑";
+}
+.banner_s .banner_tit .banner_xx{
+	font-size: 12px;
+	color: #272a2c;
+	font-family: "微软雅黑";
+}
+.banner_fr{
+	position: relative;
+}
+/*游戏中心*/
+.game_list{
+	width: 1012px;
+	margin: 0 auto;
+	background: #fff;
+	height: auto;
+	padding: 21px 45px 12px 20px;
+	-webkit-box-shadow:1px 0 10px #C0C0C0;  
+	-moz-box-shadow:1px 0 10px #C0C0C0;  
+	box-shadow:1px 0 10px #C0C0C0;  
+}
+.game_tit{
+	width: 100%;
+	height: 27px;
+	line-height: 27px;
+	border-left: 5px solid #e70d1d;
+	margin-bottom: 26px;
+}
+.game_tit .game_sp{
+	font-size: 18px;
+	color: #3d3d3d;
+	margin-left: 10px;
+	font-family: "微软雅黑";
+}
+.game_xx{
+	margin-left: 17px;
+	overflow: hidden;
+	margin-bottom: 42px;
+}
+.game_xx .icon_fl{
+	float: left;
+}
+.game_xx .icon_ct{
+	float: left;
+	width: 455px;
+	margin-left: 23px;
+}
+.game_xx .icon_btn .icon_gw{
+	width: 113px;
+	height: 33px;
+	display: block;
+	background: url(../img/game/game_wjrgw.png);
+	float: left;
+	margin-right: 37px;
+	margin-top: 9px;
+}
+.game_xx .icon_btn .icon_gw:hover{
+	background: url(../img/game/game_jrgw.png);
+}
+.game_xx .icon_btn .icon_xz{
+	width: 113px;
+	height: 33px;
+	display: block;
+	background: url(../img/game/game_wxz.png);
+	float: left;
+	margin-top: 9px;
+}
+.game_xx .icon_btn .icon_xz:hover{
+	background: url(../img/game/game_xz.png);
+}
+.game_xx .icon_bt{
+	font-size: 20px;
+	color: #e70d1d;
+	font-family: "微软雅黑";
+	margin-top: 4px;
+	margin-bottom: 19px;
+}
+.game_xx .icon_xx{
+	font-size: 13px;
+	color: #939393;
+	font-family: "微软雅黑";
+	line-height: 24px;
+	text-align: justify;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.game_xx .icon_fr{
+	float: right;
+	text-align: center;
+	margin-top: 19px;
+}
+.game_xx .icon_fr p{
+	font-size: 12px;
+	color: #949494;
+	font-family: "微软雅黑";
+}
+.game_page{
+	text-align: center;
+	margin-bottom: 18px;
+}
+.pagination>li>a{
+	color: #3a3a3a;
+	font-size: 14px;
+	margin-left: 7px;
+	border-color: #d9d9d9;
+}
+.pagination>li>a:hover{
+	color: #fff;
+	background: #e70d1d;
+	border-color: transparent;
+}
+.pagination > .active > a{
+	color: #fff;
+	background: #e70d1d;
+	border-color: transparent;
+}
+
+
