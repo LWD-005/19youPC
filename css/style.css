@@ -89,7 +89,7 @@ header{
 .wmenu{
 	position: absolute;
 	top: 0;
-	right: -134px;
+	right: -126px;
 	z-index: 20;
 	width: 109px;
 	height: 109px;
@@ -151,6 +151,9 @@ header{
 }
 .banner_xq .hero_btn:hover{
 	opacity: 1;
+}
+.carousel-inner{
+	height: 503px;
 }
 .carousel-indicators{
 	text-align: right;
@@ -374,6 +377,13 @@ section{
 }
 .yxfl .yxzx_icon{
 	margin-right: 11px;
+	width: 71px;
+	height: 71px;
+}
+.yxfl .yxzx_icon img{
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
 }
 .yxzx .yxzx_sp{
 	font-size: 18px;
@@ -403,6 +413,11 @@ section{
 	color: #8e8e8e;
 	margin-bottom: 0;
 	margin-top: 2px;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
 }
 /*论坛热帖*/
 .yxfl .ltrt{
@@ -465,6 +480,7 @@ section{
 .zxkf .zxkf_content .zxkf_icon img{
 	width: 100%;
 	height: 100%;
+	border-radius: 15px;
 }
 .zxkf .zxkf_content .zxkf_xx{
 	position: relative;
@@ -496,6 +512,13 @@ section{
 }
 .zxkf .zxkf_content .zxkf_nr{
 	float: left;
+}
+.zxkf .zxkf_content .zxkf_nr p{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 125px;
+	color: #3d3d3d;
 }
 .zxkf .zxkf_content .zxkf_xx .zxkf_bt{
 	margin-bottom: 4px;

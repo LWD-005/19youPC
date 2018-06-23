@@ -29,6 +29,15 @@ section{
 	cursor: pointer;
 	position: relative;
 }
+.banner_s .banner_icon{
+	width: 58px;
+	height: 58px;
+}
+.banner_s .banner_icon img{
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+}
 .game_arrow{
 	z-index: 9;
 	position: absolute;
@@ -69,6 +78,16 @@ section{
 }
 .banner_fr{
 	position: relative;
+	width: 769px;
+	height: 328px;
+}
+.banner_fr img{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.banner_fr img:last-child{
+	display: block;
 }
 /*游戏中心*/
 .game_list{
@@ -101,6 +120,12 @@ section{
 }
 .game_xx .icon_fl{
 	float: left;
+	width: 265px;
+	height: 178px;
+}
+.game_xx .icon_fl img{
+	width: 100%;
+	height: 100%;
 }
 .game_xx .icon_ct{
 	float: left;
@@ -147,11 +172,18 @@ section{
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 3;
 	overflow: hidden;
+	height: 72px;
 }
 .game_xx .icon_fr{
 	float: right;
 	text-align: center;
 	margin-top: 19px;
+	width: 134px;
+	height: 134px;
+}
+.game_xx .icon_fr img{
+	width: 100%;
+	height: 100%;
 }
 .game_xx .icon_fr p{
 	font-size: 12px;
@@ -167,6 +199,7 @@ section{
 	font-size: 14px;
 	margin-left: 7px;
 	border-color: #d9d9d9;
+	cursor: pointer;
 }
 .pagination>li>a:hover{
 	color: #fff;
